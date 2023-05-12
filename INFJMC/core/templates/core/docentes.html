@@ -13,5 +13,10 @@
         <li><a href="{% url 'carreras'%}">carreras</a></li>
         <li><a href="{% url 'docentes'%}">docentes</a></li>
     </ul>
+    <ul>
+    {%for c in docentes%}
+        <li> {{c.nombre}}</li>
+    {%endfor%}
+    </ul>
 </body>
 </html>
