@@ -14,8 +14,8 @@
         <li><a href="{% url 'docentes'%}">docentes</a></li>
     </ul>
     <ul>
-    {%for c in docentes %}
-        <li> {{ c.nombres }}</li>
+    {%for a in docentes %}
+        <li> {{ a.apellido }}</li>
     {% endfor %}
     </ul>
 </body>
