@@ -2,64 +2,106 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>León France</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" 
-    crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Lee</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div>
-        <div class="container"></div>
-        
-        <div class="row">
-            <div class="col"></div>
-            <div class="col"></div>
+    <ul class="nav" style="background-color: #d7ebcf;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Lee</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Reseñas</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contáctanos</a>
+          </li>
+      </ul>
+
+      <div class="card mb-3" style="max-width: 700px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/Libro.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Lee</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia accusamus inventore soluta cum, laudantium perferendis nisi reiciendis iste alias deserunt illum corrupti culpa voluptatibus, voluptate a! Iure cumque obcaecati enim.</p>
+              <a href="#" class="btn btn-primary">Comenzar</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="libros" class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="img/libro1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Entremuros</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores minima praesentium quos doloremque fuga, voluptates eius in, nostrum et aut pariatur provident commodi vero temporibus a ipsam similique eaque cupiditate!</p>
+              <a href="#" class="card-link">Leer reseña</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/libro2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Momo</h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt consequuntur libero totam aperiam ex. Molestiae est tempore sint repudiandae voluptatum repellat deleniti rem natus? Cumque quasi quas mollitia distinctio quidem?</p>
+              <a href="#" class="card-link">Leer reseña</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/libro3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nunca seremos estrellas de rock</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, laboriosam consequatur ducimus iure quidem quo, ullam possimus eveniet enim ad deleniti dicta beatae? Repudiandae, dicta sapiente tenetur iste corporis quis.</p>
+              <a href="#" class="card-link">Leer reseña</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/libro4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Brother</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, eos iure explicabo provident, eligendi accusamus modi blanditiis ratione, assumenda quasi doloribus nesciunt hic officiis et facere ad. Quidem, repellendus eius?</p>
+              <a href="#" class="card-link">Leer reseña</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- No caché/ se me olvidó/ no sé qué hice pero la parte del label funciona y está, solo que abajo de los libros,
+           lo cual aun no sé cómo quedó ahí, pero weno.-->
+      
+
+
+
+    <form>
+        <div class="mb-3" style="background-color: #d7ebcf;">
+          <label for="exampleInputEmail1" class="form-label">Nombre</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Mensaje</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
         </div>
 
-        <img src="img\LeonFrance.jpg" alt="LeónFrance" width="500" height="500" >
-        <h1>León France</h1>
-        <h6>Organizadora de eventos</h6>
-        <section id="conecta-conmigo"></section>
-        <a href="#conecta-conmigo" class="btn btn-primary">Contáctame</a>
-
-        <img src="img\about_me.jpg" alt="Sobre mi" width="400" height="400" >
-        <h10>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe velit eum temporibus. Beatae doloribus deserunt perspiciatis iure est, </h10>
-
-        <div class="contenedor-imagenes">
-            <h4>Mis trabajos</h4>
-            <img src="img\AniversarioBoda.jpg" alt="AniversarioBoda" width="150" height="150" >
-            <h5>The Golden Day</h5>
-            <h10>Lorem ipsum dolor sit amet, .</h10>
-            <img src="img\CumpleAika.jpg" alt="CumpleAika" width="150" height="150" float="right">
-            <h5>Aika´s 7th Birthday</h5>
-            <h10>Lorem ipsum dolor sit amet, .</h10>
-            <img src="img\CumpleGigi.jpg" alt="CumpleGigi" width="150" height="150" >
-            <h5>Gigi Thrives at 30</h5>
-            <h10>Lorem ipsum dolor sit amet, .</h10>
-            <img src="img\DespedidaJane.jpg" alt="DespedidaJane" width="150" height="150" >
-            <h5>Jane Goes Abroad</h5>
-            <h10>Lorem ipsum dolor sit amet, .</h10>
-            <img src="img\EventoPlaya.jpg" alt="EventoPlaya" width="150" height="150" >
-            <h5>Summer Outing</h5>
-            <h10>Lorem ipsum dolor sit amet, .</h10>
-            <img src="img\MusicCamp.jpg" alt="MusicCamp" width="150" height="150" >
-            <h5>Music Camp</h5>
-            <h10>Lorem ipsum dolor sit amet, .</h10>
         </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
 
-        <h4 id="cone">Conecta conmigo</h4> 
-        <div id="IG"><img src="img\instagram_logo.png" alt="ig" width="49" height="50" float="left"></div>
-        <div id="twt"></div><img src="img\twitter_logo.png" alt="twitter" width="49" height="50" >
-        <div id="fb"></div><img src="img\facebook_logo.png" alt="fb" width="49" height="50">
-        <div id="din"></div><img src="img\linkedin_logo.png" alt="din" width="49" height="50" >
-
-        
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" 
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
